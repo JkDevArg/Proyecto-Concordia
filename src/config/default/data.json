@@ -1,0 +1,93 @@
+{
+  "items": [
+    {
+      "type": "basemap",
+      "peso": 1,
+      "nombre": "Mapas base",
+      "short_abstract": "",
+      "class": "",
+      "seccion": "mapasbase",
+      "capas": [
+        {
+          "titulo": "Argenmap",
+          "nombre": "argenmap",
+          "servicio": "tms",
+          "version": "1.0.0",
+          "attribution": "<a href='https://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2' target='_blank'>Instituto Geográfico Nacional</a> + <a href='https://www.osm.org/copyright' target='_blank'>OpenStreetMap</a>",
+          "host": "https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png",
+          "legendImg": "src/styles/images/argenmap.png",
+          "peso": 10,
+          "selected": false,
+          "zoom": {
+            "min": 3,
+            "max": 21,
+            "nativeMin": 3,
+            "nativeMax": 21
+          }
+        },
+        {
+          "titulo": "Imágenes satelitales Here",
+          "nombre": "here_imagery",
+          "servicio": "tms",
+          "version": "1.0.0",
+          "attribution": "Imágenes satelitales © here",
+          "host": "https://2.aerial.maps.api.here.com/maptile/2.1/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8?app_id=XiMlA4JwMurUFFYUWYe3&app_code=oTsmqovbl2YudG3E0UlxDA",
+          "legendImg": "src/styles/images/here.png",
+          "selected": true,
+          "zoom": {
+            "min": 3,
+            "max": 21,
+            "nativeMin": 5,
+            "nativeMax": 18
+          },
+          "isOpenWith": []
+        }
+      ]
+    },
+    {
+      "type": "wmslayer",
+      "peso": 70,
+      "nombre": "Urgencias Concordia",
+      "short_abstract": "Cuarteles de bomberos, policias, hospitales y edificios gubermentales en la ciudad de Concordia, Entre Rios.",
+      "class": "",
+      "seccion": "urgencia-concordia",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://wms.ign.gob.ar/geoserver/defensa-seguridad/estructuras_operativas_y_defensivas_090102"
+    },
+    {
+      "type": "wmslayer",
+      "peso": 70,
+      "nombre": "Urgencias Concordia",
+      "short_abstract": "Cuarteles de bomberos, policias y hospitales en Concordia, Enter Rios.",
+      "class": "",
+      "seccion": "urgencia-concordia",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://wms.ign.gob.ar/geoserver/defensa-seguridad/estructuras_operativas_y_defensivas_FA517"
+    },
+    {
+      "type": "wmslayer",
+      "peso": 70,
+      "nombre": "Urgencias Concordia",
+      "short_abstract": "Cuarteles de bomberos, policias y hospitales en Concordia, Enter Rios.",
+      "class": "",
+      "seccion": "urgencia-concordia",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://wms.ign.gob.ar/geoserver/infraestructura-social/salud_020801"
+    },
+    {
+      "type": "wmslayer",
+      "peso": 70,
+      "nombre": "Urgencias Concordia",
+      "short_abstract": "Cuarteles de bomberos, policias y hospitales en Concordia, Enter Rios.",
+      "class": "",
+      "seccion": "urgencia-concordia",
+      "servicio": "wms",
+      "version": "1.3.0",
+      "host": "https://wms.ign.gob.ar/geoserver/infraestructura-social/puntos_de_asentamientos_y_edificios_020101"
+    }
+  ],
+  "template": "ign-geoportal-basic"
+}

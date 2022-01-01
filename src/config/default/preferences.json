@@ -1,0 +1,35 @@
+{
+  "table": {
+    "isActive": true,
+    "rowsLimit": 5
+  },
+  "charts": {
+    "isActive": true
+  },
+  "metaTags": {
+    "title": "Urgencias Concordia",
+    "description": "Cuarteles de bomberos, policias y hospitales en Concordia, Enter Rios.",
+    "image": "",
+    "description": "Cuarteles de bomberos, policias y hospitales en Concordia, Entre Rios.",
+    "image": "https://www.concordia.gob.ar/sites/all/themes/carnaval/images/logo-muni-black-landscape.png"
+  },
+  "analytics_ids": [],
+  "excluded_plugins": ["minimap"],
+  "mapConfig": {
+    "center": {
+      "latitude": -31.2607,
+      "longitude": -58.2461
+    },
+    "zoom": {
+      "initial": 11,
+      "latitude": -31.3782,
+      "longitude": -58.0199
+    },
+    "zoom": {
+      "initial": 14,
+      "min": 3,
+      "max": 21
+    }
+  },
+  "showSearchBar": false
+}
